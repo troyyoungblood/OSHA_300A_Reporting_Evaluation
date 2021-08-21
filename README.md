@@ -1,9 +1,6 @@
 # OSHA_300_Log_Reporting_Evaluation
 OSHA 300 log data review 2016 - 2020.  Injury and Illness reporting.
 
-# 2018_Medicare_Part_B_Houston_Analysis
-Review and presentation of trends in 2018 Medicare Part B filings from Houston, Texas
-
 Purpose of activity was to evaluate and identify trends associated with services provided under Medicare Part B during the calendar year 2018 in Houston, Texas. 
 
 <u>Brief Medicare overview</u>
