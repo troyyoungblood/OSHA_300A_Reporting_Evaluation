@@ -1,7 +1,7 @@
 # OSHA_300_Log_Reporting_Evaluation
 OSHA 300 log data review 2016 - 2020.  Injury and Illness reporting.
 
-Purpose of activity was to present information associated illness and injury reporting under OSHA  - OSHA Form 300A (Summary of Work-Related Injuries and Illnesses) from 2016 -2020. 
+Purpose of activity was to present information associated with illness and injury reporting under OSHA  - OSHA Form 300A (Summary of Work-Related Injuries and Illnesses) from 2016 -2020. 
 
 <u>OSHA 300A overview</u>
 <p>On an annual basis, designated employers are required to submit their OSHA 300A information. https://www.osha.gov/recordkeeping </p>
