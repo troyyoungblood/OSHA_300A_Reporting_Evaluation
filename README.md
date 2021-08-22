@@ -1,14 +1,28 @@
 # OSHA_300_Log_Reporting_Evaluation
 OSHA 300 log data review 2016 - 2020.  Injury and Illness reporting.
 
-Purpose of activity was to evaluate and identify trends associated with services provided under Medicare Part B during the calendar year 2018 in Houston, Texas. 
+Purpose of activity was to present information associated illness and injury reporting under OSHA 300 from 2016 -2020. 
 
-<u>Brief Medicare overview</u>
-<p>Original Medicare is a fee-for-service health plan with a Part A (Hospital Insurance) and a Part B (Medical Insurance).  After a person pays a deductible, Medicare pays its Medicare-approved amount and the patient pays the remainder.  Medicare Part D is drug insurance.  Medicare Advantage Part C is type of Medicare health plan offered by a private company that contracts with Medicare.</p>
+<u>OSHA 300A overview</u>
+<p>On an annual basis, designated employers are required to submit their OSHA 300A information. https://www.osha.gov/recordkeeping </p>
 
-<p>The Medicare Part B data was obtained from data.cms.gov, a federal government website managed by the Centers for Medicare & Medicaid Services, 7500 Security Boulevard, Baltimore, MD 21244</p>
+<p>An OSHA recordable injury or illness is required to be included in the log.  OSHA defines a recordable injury or illness as:
+<br>
+ - Any work-related fatality
+<br>
+ - Any work-related injury or illness that results in loss of consciousness, days away from work, restricted work, or transfer to another job
+<br> 
+ - Any work-related injury or illness requiring medical treatment beyond first aid
+<br> 
+ - Any work-related diagnosed case of cancer, chronic irreversible diseases, fractured or cracked bones or teeth, and punctured eardrums
+<br> 
+ - There are also special recording criteria for work-related cases involving: needlesticks and sharps injuries; medical removal; hearing loss; and tuberculosis.</p>
+<br>
+<br>
+First aid is defined below.
+<br>
 
-<p>Link to data: https://https://www.osha.gov/Establishment-Specific-Injury-and-Illness-Data</p>
+<p>The data used to create the charts was obtained from: https://www.osha.gov/Establishment-Specific-Injury-and-Illness-Data</p>
 
 <u>Data Extraction and Transformation</u>
 <p>The original dataset was downloaded as a csv file and it contained information from all locations providing Medicare Part B services in 2018.  The file size was approximately 2.2 GB and was to large to be effectively manage using a spreadsheet.  Python in Jupyter Notebook was used to amend column titles and create a subset of data containing only records of services provided in Houston, Texas.  The Houston only dataframe was exported to a csv file which could then be used to create charts for analysis in Tableau.</p>
@@ -114,3 +128,15 @@ The total Medicare Part B payments to Houston area providers in 2018 was $750,06
 <img src="images/8_drugsissued1.PNG" width = "675"><br>
 <br>
 
+Using a non-prescription medication at nonprescription strength (for medications available in both prescription and non-prescription form, a recommendation by a physician or other licensed health care professional to use a non-prescription medication at prescription strength is considered medical treatment for recordkeeping purposes);
+Administering tetanus immunizations (other immunizations, such as Hepatitis B vaccine or rabies vaccine, are considered medical treatment); Cleaning, flushing or soaking wounds on the surface of the skin
+Using wound coverings such as bandages, Band-Aids™, gauze pads, etc.; or using butterfly bandages or Steri-Strips™ (other wound closing devices such as sutures, staples, etc., are considered medical treatment);
+Using hot or cold therapy;
+Using any non-rigid means of support, such as elastic bandages, wraps, non-rigid back belts, etc. (devices with rigid stays or other systems designed to immobilize parts of the body are considered medical treatment for recordkeeping purposes);
+Using temporary immobilization devices while transporting an accident victim (e.g., splints, slings, neck collars, back boards, etc.). Drilling of a fingernail or toenail to relieve pressure, or draining fluid from a blister;
+Using eye patches;
+Removing foreign bodies from the eye using only irrigation or a cotton swab;
+Removing splinters or foreign material from areas other than the eye by irrigation, tweezers, cotton swabs or other simple means;
+Using finger guards;
+Using massages (physical therapy or chiropractic treatment are considered medical treatment for recordkeeping purposes); or
+Drinking fluids for relief of heat stress.
