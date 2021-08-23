@@ -1,7 +1,7 @@
-# OSHA_300_Log_Reporting_Evaluation
-OSHA 300 log data review 2016 - 2020.  Injury and Illness reporting.
+# OSHA_300A_Reporting_Evaluation
+OSHA 300A submission review 2016 - 2020.  Injury and Illness reporting.
 
-Purpose of activity was to present information associated with illness and injury reporting under OSHA  - OSHA Form 300A (Summary of Work-Related Injuries and Illnesses) from 2016 -2020. 
+Presentation of information associated with illness and injury reporting under OSHA  - OSHA Form 300A (Summary of Work-Related Injuries and Illnesses) from 2016 -2020.  
 
 <u>OSHA 300A overview</u>
 <p>On an annual basis, designated employers are required to submit their OSHA 300A information. https://www.osha.gov/recordkeeping </p>
@@ -22,14 +22,25 @@ Purpose of activity was to present information associated with illness and injur
 First aid is defined below.
 <br>
 
-<p>The data used to create the charts was obtained from: https://www.osha.gov/Establishment-Specific-Injury-and-Illness-Data</p>
-
-<u>Data Extraction and Transformation</u>
-<p>The original dataset was downloaded as a csv file and it contained information from all locations providing Medicare Part B services in 2018.  The file size was approximately 2.2 GB and was to large to be effectively manage using a spreadsheet.  Python in Jupyter Notebook was used to amend column titles and create a subset of data containing only records of services provided in Houston, Texas.  The Houston only dataframe was exported to a csv file which could then be used to create charts for analysis in Tableau.</p>
-
 <u>Data Review</u>
 
 <p>Link to Tableau: https://public.tableau.com/app/profile/troy.youngblood/viz/OSHA_Injury_Data_Evaluation/Dashboard32?publish=yes</p>
+<br>
+<p>Overall Statistics 2016 - 2020</p>
+California has the most number of employers reporting during the period at 132,492.  Based on 2017-2020 data, California appears to have an under reporting value of approximately 23,000 in 2016. Taking that into account, California should actually be in the range of 162,000 employers reporting.  Wyoming has the least value at 2,127. 
+
+
+
+<u>Data Extraction and Transformation</u>
+<p>Information was pulled from two locations.  North American Industry Classification System (NAICS) codes and descriptions where obtained from https://www.naics.com/search/.  The NAICS codes are used to group injury and illness information under related work descriptions.  Injury and illness data was pulled from: https://www.osha.gov/Establishment-Specific-Injury-and-Illness-Data.  Data was availalbe for 2016, 2017, 2018, 2019, and 2020.  All avaialbe years of data are used in this evaluation.</p>
+<br>
+<p>Using Python in Jupyter Notebook, the OSHA data was merged into a single file. After the combined OSHA data file was created, the "initial" NAICS file was merged on the naics_code column in the OSHA data file.  The resulting file was approximately 431MB and over 1.3 million rows of data.  The data was evalauted to determine if there were any issues that would create problems during visualization and also identify opportunities to improve data review.    The primary issues identified were state abbreviations were incorrectly entered, industry_description was not consistently entered (missing from ~100k rows), and many errors with hours and or employee count data.   State abbreviations and missing industry_description data was corrected during cleanup steps in Python and OSHA data entry was corrected in excel after the Python work was complete.  Other minor cleanup in Python included dropping rows and filling some NaN with information from another column.</p>
+<br>
+<p>The data correction in excel required 
+
+
+
+
 
 Overall Statistics <br>
 
