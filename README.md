@@ -4,9 +4,9 @@ OSHA 300A submission review 2016 - 2020.  Injury and Illness reporting.
 Presentation of information associated with illness and injury reporting under OSHA  - OSHA Form 300A (Summary of Work-Related Injuries and Illnesses) from 2016 -2020.  
 
 <u>OSHA 300A overview</u>
-<p>On an annual basis, designated employers are required to submit their OSHA 300A information. https://www.osha.gov/recordkeeping </p>
-
-<p>An OSHA recordable injury or illness is required to be included in the log.  OSHA defines a recordable injury or illness as:
+<p>On an annual basis, designated employers are required to submit their OSHA 300A https://www.osha.gov/recordkeeping. The 300A is a record of each OSHA recordable injury or illness which occurred at the employer's location during the reporting period.</p>
+<br>
+<p>OSHA defines a recordable injury or illness as:
 <br>
  - Any work-related fatality
 <br>
@@ -18,16 +18,20 @@ Presentation of information associated with illness and injury reporting under O
 <br> 
  - There are also special recording criteria for work-related cases involving: needlesticks and sharps injuries; medical removal; hearing loss; and tuberculosis.</p>
 <br>
+<p>For sake of brevity on background information and getting to the info, First Aid is defined below.</p>
 <br>
-First aid is defined below.
+<p><u>Data Review</u></p>
 <br>
-
-<u>Data Review</u>
-
-<p>Link to Tableau: https://public.tableau.com/app/profile/troy.youngblood/viz/OSHA_Injury_Data_Evaluation/Dashboard32?publish=yes</p>
+<p>Link to Tableau charts and tables: https://public.tableau.com/app/profile/troy.youngblood/viz/OSHA_Injury_Data_Evaluation/Dashboard32?publish=yes</p>
 <br>
 <p>Overall Statistics 2016 - 2020</p>
-California has the most number of employers reporting during the period at 132,492.  Based on 2017-2020 data, California appears to have an under reporting value of approximately 23,000 in 2016. Taking that into account, California should actually be in the range of 162,000 employers reporting.  Wyoming has the least value at 2,127. 
+<p>California has the most number of employers reporting during the period at 132,492.  Based on 2017-2020 data, California appears to have an underreporting value of approximately 23,000 in 2016. Taking that into account, California should actually be in the range of 162,000 employers reporting in the evaluation timeframe.  Wyoming has the least value at 2,127.</p>
+<br>
+<p>The OSHA incident rate formal is (# of injury and illness X 200,000) / Employee hours worked.  This formula normalizes the incident rate.  The 200,000 value represents the number of hours 100 employees working 40 hours per week for 50 weeks for an entire year would complete in a year.</p>
+<br>
+<p>Maine has the highest incident rate at 6.034
+
+
 
 
 
