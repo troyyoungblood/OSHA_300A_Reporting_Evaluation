@@ -41,9 +41,7 @@ Review of information associated with illness and injury reporting required by O
 <br>
 <img src="images/ir_map.PNG" width = "675"><br>
 <br>
-<br>
-<p>This chart shows incident rate (IR) and days away from work (DAFW) severity.  Incident rate is defined above.  DAFW severity is the total days away from work for designated cases divided by the number of DAFW cases.  DAFW cases are a subset of total cases used in incident rate. The DAFW severity rate provides an average number of days away from work for each case. The higher the DAFW rate (days/incident) the longer a person on average was absent from work after an incident inferring a more sever incident. When developing safety and health corrective action plans, the line graphs present valuable information that can be used to measure program effectiveness.  Program effectivness is a question that is asked under ISO 45001 and other Quality programs and this type of information can be used to support that program.   At the bottom of the chart are bars charts that represent the delta between incident rate and DAFW severity rate.  Under optimum conditions, the delta is trending downward as both IR and DAFW trend downward.  The larger gap and times when IR is going down, but DAFW is going up, this provides valuable information on where to focus limited resources and time.    
-<br>
+<p>This two charts below show incident rate (IR) and days away from work (DAFW) severity. The first is by reporting State and the second id by NAICS code. Incident rate is defined above.  DAFW severity is the total days away from work for designated cases divided by the number of DAFW cases.  DAFW cases are a subset of total cases used in incident rate. The DAFW severity rate provides an average number of days away from work for each case. The higher the DAFW rate (days/incident) the longer a person on average was absent from work after an incident inferring a more sever incident. When developing safety and health corrective action plans, the line graphs present valuable information that can be used to measure program effectiveness.  Program effectivness is a question that is asked under ISO 45001 and other Quality programs and this type of information can be used to support that program.   At the bottom of the chart are bars charts that represent the delta between incident rate and DAFW severity rate.  Under optimum conditions, the delta is trending downward as both IR and DAFW trend downward.  The larger gap and times when IR is going down, but DAFW is going up, this infers the severity of the cases is increasing. This data provides valuable information on where to focus limited resources and time. </p>   
 <br>
 <img src="images/2-ir_state.PNG" width = "675"><br>
 <br>
@@ -52,8 +50,7 @@ Review of information associated with illness and injury reporting required by O
 <br>
 <img src="images/3-ir_naics.PNG" width = "675"><br>
 <br>
-<br>
-<br>
+<p>This two charts below are similar to the two above, except the data is showing DART rate and Days Job Transferred or Restricted (DJTR) severity.  The importance of the data is similar to the charts above, but presents only cases and days associated with an individual being at work but temporarily transferred to another job or working at current position with restrictions until they are cleared to work without restrictions. </p> 
 <br>
 <img src="images/4-dart_state.PNG" width = "675"><br>
 <br>
