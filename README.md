@@ -21,17 +21,16 @@ Review of information associated with illness and injury reporting required by O
 <p>For sake of brevity on background information and getting to the info, First Aid is defined below.</p>
 <br>
 <p><u>Data Review</u></p>
-<br>
 <p>Link to Tableau charts and tables: https://public.tableau.com/app/profile/troy.youngblood/viz/OSHA_Injury_Data_Evaluation/Dashboard32?publish=yes</p>
 <br>
 <p>Overall Statistics 2016 - 2020</p>
 <p>California has the most number of employers reporting during the period at 132,492.  Based on 2017-2020 data, California appears to have an underreporting value of approximately 23,000 in 2016. Taking that into account, California should actually be in the range of 162,000 employers reporting in the evaluation timeframe.  Wyoming has the least value at 2,127.</p>
 <br>
-<p>The OSHA incident rate formula is (# of injury and illness X 200,000) / Employee hours worked.  This formula is used to normalize the incident rate.  The 200,000 value represents the number of hours 100 employees working 40 hours per week for 50 weeks for an entire year would complete in a year. On a state wide basis, Maine has the highest incident rate at 6.03 for every 100 employees.  Louisiana has the lowest at 1.59.</p>
+<p>The OSHA incident rate formula is (# of injury and illness X 200,000) / Employee hours worked.  This formula is used to normalize the incident rate.  The 200,000 value represents the number of hours worked in a year by 100 employees working 40 hours per week for 50 weeks (assumes 2 weeks of vacation). On a state wide basis, Maine has the highest incident rate at 6.03 for every 100 employees.  Louisiana has the lowest at 1.59.</p>
 <br>
 <p>Businesses were either grouped in a 2 digit or 3 digit NAICS cateogry for ease of reporting and visualization. 62 - Healthcare and Social Assistance had the greatest number of employers reporting at 154,972.  482 - Rail Transportation has the least at 18.  491 - Postal Workers had the highest incident rate at 7.00 for every 100 employees.  523 - Securities, Commodity Contracts, and other Financial Investments and Related Activities has the lowest incident rate at 0.21.</p>
 <br>
-<p>Another reporting statistic is Days Away, Restricted or Transferred (DART).  The formula for DART rate is (# of DART incidents X 200,000) / Employee hours worked.  On a state wide basis, Maine has the highest DART rate at 2.41 for every 100 employees.  New York has the lowest at 0.28. 62 - Healthcare and Social Assistance had the greatest number of employers reporting at 154,972.  482 - Rail Transportation has the least at 18. </p>
+<p>Another reporting statistic is Days Away, Restricted, or Transferred (DART).  The formula for DART rate is (# of DART incidents X 200,000) / Employee hours worked.  On a state wide basis, Maine has the highest DART rate at 2.41 for every 100 employees.  New York has the lowest at 0.28.</p>
 <br>
 <p>There is more data to search and review on a state, NAICS, and reporting year basis. Link to Tableau charts and tables: https://public.tableau.com/app/profile/troy.youngblood/viz/OSHA_Injury_Data_Evaluation/Dashboard32?publish=yes</p>
 
