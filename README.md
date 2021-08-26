@@ -21,7 +21,7 @@ Review of information associated with illness and injury reporting required by O
 <p>For sake of brevity on background information and getting to the info, First Aid is defined below.</p>
 <br>
 <p><u>Data Review</u></p>
-<p>Link to Tableau charts and tables: https://public.tableau.com/app/profile/troy.youngblood/viz/OSHA_Injury_Data_Evaluation/Dashboard32?publish=yes</p>
+<p>Link to Tableau charts and tables: https://public.tableau.com/views/OSHA_Injury_Data_Evaluation/Story1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link</p>
 <br>
 <p>Overall Statistics 2016 - 2020</p>
 <p>California has the most number of employers reporting during the period at 132,492.  Based on 2017-2020 data, California appears to have an underreporting value of approximately 23,000 in 2016. Taking that into account, California should actually be in the range of 162,000 employers reporting in the evaluation timeframe.  Wyoming has the least value at 2,127.</p>
