@@ -50,7 +50,7 @@ Review of information associated with illness and injury reporting required by O
 <br>
 <img src="images/3-ir_naics.PNG" width = "675"><br>
 <br>
-<p>This two charts below are similar to the two above, except the data is showing DART rate and Days Job Transferred or Restricted (DJTR) severity.  The importance of the data is similar to the charts above, but presents only cases and days associated with an individual being at work but temporarily transferred to another job or working at current position with restrictions until they are cleared to work without restrictions. </p> 
+<p>These two charts below are similar to the two above, except the data is showing DART rate and Days Job Transferred or Restricted (DJTR) severity.  The importance of the data is similar to the charts above, but presents only cases and days associated with an individual being at work but temporarily transferred to another job or working at thier current position with restrictions until they are cleared to work without restrictions.</p> 
 <br>
 <img src="images/4-dart_state.PNG" width = "675"><br>
 <br>
@@ -60,16 +60,17 @@ Review of information associated with illness and injury reporting required by O
 <img src="images/5-dart_naics.PNG" width = "675"><br>
 <br>
 <br>
-<br>
+<p>The chart below consists of tables that allow a user to view basic data by State or NAICS.</p> 
 <br>
 <br>
 <img src="images/6-totals.PNG" width = "675"><br>
 <br>
-<br>
+<p>The chart below consists of raw hours (hours presented in the original OSHA files) represented by the center red line against the hours used for visualization. The information is presented by State and NAICS.  When conducting a preliminary review of the data, it was very obvious there were issues with some of the data entered.  The process taken to address the larger issues is detailed more below, but in general - the raw hours worked for the year were plotted against the theoretical total hours.  The theoretical total hours were obtained by multiplying the number of employees by 2000.  Then, if the raw hours were 2X the theoretical, then the raw data was reviewed.  The most common issues were - employees and hours data entry switched, decimal points were attempted to be entered versus whole numbers, and grossly incorrect numbers entered.  To correct the obvious issues observed, employee and hour data was placed in correct column, the last 2 digits were removed when it was obvious decimal points were attempted to be entered and lastly when employee or hourly data was  obviously wrong the either the employee value was multiplied by 2000 or the hours were divided by 2000.  The purpose of this activty was not to determine statistical differences or to get into pure data science discussion which typically frowns on amending raw data.  The purpose was to show trends and use real life experience to review data for usability and ensure that the majority of the data is used.  Trends and productive use of this type of data that is entered by humans is different than analytical data which would not be amended.  It also points out the need to ensure data entry requirements are understood and assistance is avaiable for those that have question.  Simple data sanity checks are avaialbe.</p> 
 <br>
 <br>
 <img src="images/7-hours.PNG" width = "675"><br>
 <br>
+<p>The two charts under Backup shows respective IR data for State and NAICS sorting with number of businesses reporting plotted against calendar year.</p> 
 <br>
 <br>
 <br>
@@ -79,9 +80,6 @@ Review of information associated with illness and injury reporting required by O
 <br>
 <img src="images/10-summary_naics.PNG" width = "675"><br>
 <br>
-
-
-
 
 <u>Data Extraction and Transformation</u>
 <p>Information was pulled from two locations.  North American Industry Classification System (NAICS) codes and descriptions where obtained from https://www.naics.com/search/.  The NAICS codes are used to group injury and illness information under related work descriptions.  Injury and illness data was pulled from: https://www.osha.gov/Establishment-Specific-Injury-and-Illness-Data.  Data was availalbe for 2016, 2017, 2018, 2019, and 2020.  All avaialbe years of data are used in this evaluation.</p>
