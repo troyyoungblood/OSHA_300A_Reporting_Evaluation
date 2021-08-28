@@ -3,6 +3,8 @@ OSHA 300A submission review 2016 - 2020.  Injury and Illness reporting.
 
 Review of information associated with illness and injury reporting required by OSHA  - OSHA Form 300A (Summary of Work-Related Injuries and Illnesses) from 2016 -2020.  
 
+NOTE: The raw data files from OSHA were reviewed as part of this effort.  A very small percentage of the more than 1.3 million rows of data in the combined dataset were amended as part of the exercise.  This was not done to misrepresent the data, but to correct very obvious errors in either employee numbers of hours worked.  A summary of the amendments is presented in the charts showing raw and amended hours.  The corrections were not to identify issues with the data provider but to allow for more representative data.  As a person that has worked with this type of data it is understandable that errors can be made.  The rows of obvious incorrect data could have been deleted, but when a correction was easily identified, it was made. If the error was less than 2X the theoretical value, no changes were made. The point of this exercise is to show trends on a State and NAICS basis and not flag individual sites. An amended and raw data presentation could not be presented together in the public version of Tableau because of the size of the files.  
+
 <u>OSHA 300A overview</u>
 <p>On an annual basis, designated employers are required to submit their OSHA 300A https://www.osha.gov/recordkeeping. The 300A is a record of each OSHA recordable injury or illness which occurred at the employer's location during the reporting period.</p>
 <br>
