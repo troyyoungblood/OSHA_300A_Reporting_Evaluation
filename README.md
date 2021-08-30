@@ -117,17 +117,32 @@ NOTE: The raw data files from OSHA were reviewed as part of this effort.  A very
 <img src="images/002-raw_naics.PNG" width = "675"><br>
 <br>
 <br>
-<p>OSHA defintion of First Aid</p>
+OSHA defintion of First Aid
 <br>
-<p>Using a non-prescription medication at nonprescription strength (for medications available in both prescription and non-prescription form, a recommendation by a physician or other licensed health care professional to use a non-prescription medication at prescription strength is considered medical treatment for recordkeeping purposes);
-Administering tetanus immunizations (other immunizations, such as Hepatitis B vaccine or rabies vaccine, are considered medical treatment); Cleaning, flushing or soaking wounds on the surface of the skin
-Using wound coverings such as bandages, Band-Aids™, gauze pads, etc.; or using butterfly bandages or Steri-Strips™ (other wound closing devices such as sutures, staples, etc., are considered medical treatment);
-Using hot or cold therapy;
-Using any non-rigid means of support, such as elastic bandages, wraps, non-rigid back belts, etc. (devices with rigid stays or other systems designed to immobilize parts of the body are considered medical treatment for recordkeeping purposes);
-Using temporary immobilization devices while transporting an accident victim (e.g., splints, slings, neck collars, back boards, etc.). Drilling of a fingernail or toenail to relieve pressure, or draining fluid from a blister;
-Using eye patches;
-Removing foreign bodies from the eye using only irrigation or a cotton swab;
-Removing splinters or foreign material from areas other than the eye by irrigation, tweezers, cotton swabs or other simple means;
-Using finger guards;
-Using massages (physical therapy or chiropractic treatment are considered medical treatment for recordkeeping purposes); or
-Drinking fluids for relief of heat stress.</p>
+-Using a non-prescription medication at nonprescription strength (for medications available in both prescription and non-prescription form, a recommendation by a physician or other licensed health care professional to use a non-prescription medication at prescription strength is considered medical treatment for recordkeeping purposes)
+<br>
+-Administering tetanus immunizations (other immunizations, such as Hepatitis B vaccine or rabies vaccine, are considered medical treatment)
+<br>
+-Cleaning, flushing or soaking wounds on the surface of the skin
+<br>
+-Using wound coverings such as bandages, Band-Aids™, gauze pads, etc.; or using butterfly bandages or Steri-Strips™ (other wound closing devices such as sutures, staples, etc., are considered medical treatment
+<br>
+-Using hot or cold therapy
+<br>
+-Using any non-rigid means of support, such as elastic bandages, wraps, non-rigid back belts, etc. (devices with rigid stays or other systems designed to immobilize parts of the body are considered medical treatment for recordkeeping purposes)
+<br>
+-Using temporary immobilization devices while transporting an accident victim (e.g., splints, slings, neck collars, back boards, etc.)
+<br>
+-Drilling of a fingernail or toenail to relieve pressure, or draining fluid from a blister
+<br>
+-Using eye patches
+<br>
+-Removing foreign bodies from the eye using only irrigation or a cotton swab
+<br>
+-Removing splinters or foreign material from areas other than the eye by irrigation, tweezers, cotton swabs or other simple means
+<br>
+-Using finger guards
+<br>
+-Using massages (physical therapy or chiropractic treatment are considered medical treatment for recordkeeping purposes)
+<br>
+-Drinking fluids for relief of heat stress
