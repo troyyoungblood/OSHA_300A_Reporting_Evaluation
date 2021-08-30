@@ -85,14 +85,38 @@ NOTE: The raw data files from OSHA were reviewed as part of this effort.  A very
 <u>Data Extraction and Transformation</u>
 <p>Information was pulled from two locations.  North American Industry Classification System (NAICS) codes and descriptions where obtained from https://www.naics.com/search/.  The NAICS codes are used to group injury and illness information under related work descriptions.  Injury and illness data was pulled from: https://www.osha.gov/Establishment-Specific-Injury-and-Illness-Data.  Data was availalbe for 2016, 2017, 2018, 2019, and 2020.  All avaialbe years of data are used in this evaluation.</p>
 <br>
-<p>Using Python in Jupyter Notebook, the OSHA data was merged into a single file. After the combined OSHA data file was created, the "initial" NAICS file was merged on the naics_code column in the OSHA data file.  The resulting file was approximately 431MB and over 1.3 million rows of data.  The data was evalauted to determine if there were any issues that would create problems during visualization and also identify opportunities to improve data review.    The primary issues identified were state abbreviations were incorrectly entered, industry_description was not consistently entered (missing from ~100k rows), and many errors with hours and or employee count data.   State abbreviations and missing industry_description data was corrected during cleanup steps in Python and OSHA data entry was corrected in excel after the Python work was complete.  Other minor cleanup in Python included dropping rows and filling some NaN with information from another column.</p>
+<p>Using Python in Jupyter Notebook, the OSHA data was merged into a single file. After the combined OSHA data file was created, the "initial" NAICS file was merged on the naics_code column in the OSHA data file.  The resulting file was approximately 431MB and over 1.3 million rows of data.  The data was evalauted to determine if there were any issues that would create problems during visualization and also identify opportunities to improve data review.    The primary issues identified were state abbreviations were incorrectly entered, industry_description was not consistently entered (missing from ~100k rows), and many errors with hours and or employee count data.   State abbreviations and missing industry_description data was corrected during cleanup steps in Python and OSHA data entry was corrected in excel after the Python work was complete and is disucssed below.  Other minor cleanup in Python included dropping rows and filling some NaN with information from another column.</p>
 <br>
-<p>The data correction in excel required 
-
-
-
-
-
+<p>The data correction in excel required visualization of the raw data against theoretical hours (number of employees X 2000).  As noted above, the purpose of the data review was to find data that was obviously incorrect and make amendments using work experience.  It is understood that some may view this as something that should not be done, but the intent of this effort is to see trends at the higher levels.  If the purpose was to review line by line data entry and determine statistical differences, then a different approach could be taken. The data was observed in charts looking for instances when the theorectical hours were 2X the raw hours.  When this occurred, the raw data was first sorted by hours and reviewed by number of employees to see if the values were within 2X the expected values.  If hour data was out of expected ranges, then a couple different approaches were taken.  The first was to determine if it was obvious that too many digits were entered such as values after the decimal were accidentally added.  The second was to adjust the  hours by multiplying the number of employees by 2000.  The second sort was by employees and raw hours were reviewed to see if the vaues were within 2X the expected range.  If the employee values were out of range, an approach similar to above was taken.  Obvious errors were corrected such as flipping the hours and employee number columns.  This error hapended on many occasions.  When the error was not obvious, the hours were divided by 2000 to get theoretical number of employees.</p>
+<br>
+<p>The raw employee and hours data are maintained in the combined dataframe that was written as a csv for reference purposes.  Becuase the file has more 1.3 million lines, the file is difficult to open in excel.  Also, since the file is so large, it pushed the limits of the public version of Tableau and therefore all charts could not be included in the Tableau charts presented in the 300A data evaluation.  The raw data review was conducted in a different Tableau.  Below are snips of those charts.</p>
+<br>
+<p>The three charts below show the data sorted by state.  The red lines are the raw hours, the pink lines are theoretical hours, and the blue lines are theoretical hours.  All three charts provide examples of raw hours /theoretical hours differences.  The last chart is a single state charted by itself becuase the hours reported where in the trillions and therefore made the y-axis range so large, the other states almost all looked like straight lines.</p> 
+<br>
+<br>
+<br>
+<img src="images/004-raw_state_excl.PNG" width = "675"><br>
+<br>
+<br>
+<br>
+<img src="images/005-raw_state_excl.PNG" width = "675"><br>
+<br>
+<br>
+<br>
+<img src="images/003-single_state.PNG" width = "675"><br>
+<br>
+<br>
+<p>The two charts below show the data sorted by NAICS.  The red lines are the raw hours, the pink lines are theoretical hours, and the blue lines are theoretical hours.  Both charts provide examples of raw hours /theoretical hours differences.</p> 
+<br>
+<br>
+<br>
+<img src="images/001-raw_naics.PNG" width = "675"><br>
+<br>
+<br>
+<br>
+<img src="images/002-raw_naics.PNG" width = "675"><br>
+<br>
+<br>
 <p>OSHA defintion of First Aid</p>
 <br>
 <p>Using a non-prescription medication at nonprescription strength (for medications available in both prescription and non-prescription form, a recommendation by a physician or other licensed health care professional to use a non-prescription medication at prescription strength is considered medical treatment for recordkeeping purposes);
